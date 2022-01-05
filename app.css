@@ -3,6 +3,7 @@ body{
     flex-direction: column;
     background-color: #fafafa;
     margin:0;
+    text-align: center;
 
 }
 header{
