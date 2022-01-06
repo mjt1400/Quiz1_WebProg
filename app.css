@@ -10,7 +10,7 @@ body{
 
 }
 header{
-    background-color: cornflowerblue ;
+    background-color: black ;
     width: 110%;
     margin:auto;
     font-family: 'Arial',sans-serif;
@@ -85,7 +85,7 @@ li{
 }
 
 button {
-    background-color: cornflowerblue;
+    background-color: black;
     color: white;
     border: none;
     border-radius: 200px;
@@ -95,7 +95,7 @@ button {
     font-size: 3em;
 }
 button:hover{
-    background-color: blue;
+    background-color: red;
 
 
 }

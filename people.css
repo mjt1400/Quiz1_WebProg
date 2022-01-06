@@ -1,3 +1,8 @@
+body{
+    display: flex;
+    flex-direction: column;
+    background-color: #fafafa;
+}
 img{
     border-radius: 20%;
     height: 400px;
@@ -7,14 +12,14 @@ img{
 }
 button{
     height: 75px;
-    width: 30%;
-    background-color: cornflowerblue;
+    width: 50%;
+    background-color: black;
     color: white;
     border: none;
     border-radius: 100px;
 }
 button:hover{
-    background-color: blue;
+    background-color: red;
 }
 p{
     bottom: 50px;
