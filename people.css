@@ -1,0 +1,23 @@
+img{
+    border-radius: 20%;
+    height: 400px;
+    width: 400px;
+    margin-right: 30px;
+    margin-top: 25px;
+}
+button{
+    height: 75px;
+    width: 30%;
+    background-color: cornflowerblue;
+    color: white;
+    border: none;
+    border-radius: 100px;
+}
+button:hover{
+    background-color: blue;
+}
+p{
+    bottom: 50px;
+    margin-left: 100px;
+
+}

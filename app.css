@@ -1,13 +1,16 @@
+html{
+    font-family: 'Montserrat', sans-serif;
+}
 body{
     display: flex;
     flex-direction: column;
     background-color: #fafafa;
     margin:0;
-    text-align: center;
+
 
 }
 header{
-    background-color: blue ;
+    background-color: cornflowerblue ;
     width: 110%;
     margin:auto;
     font-family: 'Arial',sans-serif;
@@ -42,7 +45,7 @@ li{
     flex-direction: row;
 }
 .header-block>h6{
-    font-size: 3rem;
+    font-size: 2rem;
     text-align:center;
     margin-top:auto;
     margin-bottom:auto;
@@ -59,39 +62,40 @@ li{
     margin-left: auto;
     margin-right: auto;
     display: block;
-    font-size: 2.5rem;
+    font-size: 5.5em;
     text-align:center;
 
 }
 .title-block>p{
-    width: 50%;
+    width: 30%;
     margin-left: auto;
     margin-right: auto;
     display: block;
     font-weight: bolder;
-    font-size: 2rem;
+    font-size: 4em;
     text-align:center;
 }
 .button-container {
-    position: absolute;
-    top: 70%;
-    left: 25%;
+    display: flex;
+    flex-direction: column;
     align-items: center;
+    bottom: 10%;
+    left: 37%;
+
 }
 
 button {
-    border-radius: 10px;
+    background-color: cornflowerblue;
+    color: white;
     border: none;
-    margin-left: 50px;
-    margin-right: 50px;
-    padding: 10px;
+    border-radius: 200px;
+    height: 100px;
+    width: 40%;
+    margin: 50px;
+    font-size: 3em;
 }
 button:hover{
-    background-color: black;
-    color: white;
-}
-.container{
-    position: relative;
-    text-align: center;
-    overflow: hidden;
+    background-color: blue;
+
+
 }
